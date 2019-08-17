@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+.recommend{
+	width: 100%;
+	height: 120px;
+	
+	padding-left: 1%;
+}
+#firstPage{
+	animation: flyLeft 0.5s linear;
+}
+#secondPage{
+	animation: flyRight 0.5s linear;
+}
+@keyframes flyLeft{
+	0%{transform: translateX(-1000px) ;}
+	100%{transform: translateX(0);}
+}
+@keyframes flyRight{
+	0%{transform: translateX(1500px) ;}
+	100%{transform: translateX(0);}
+}
+.row{
+	animation: flyLeft 1s linear;
+}
+.recommend ul{
+	border: 0 none;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+.recommend li{
+	width: 75px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	line-height: 20px;
+	float: left;
+	border-radius: 4px;
+}
+.recommend img{
+	width: 75px;
+	border-radius: 8px;
+}
+.leftbtn{
+	float: left;
+	margin-top: 30px;
+	background: #FD6A21;
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+}
+.leftbtn:hover{
+	transform: scale(1.4,1.4);
+	transition: all 0.5s;
+	-webkit-animation-duration: 1s;
+}
+.gametext{
+	float: left;
+	width:75%;
+	height: 350px;
+	background: #f5f5f5;
+}
+.gamepicture{
+	width: 300px;
+	height: 200px;
+	float: left;
+	
+}
+.gamebegin{
+	float: left;
+	width: 300px;
+	height: 350px;
+	
+}
+.btn{
+	float: left;
+	display: block;
+	margin-left: 40px;
+	margin-top: 30px;
+	width: 220px;
+	height: 50px;
+	background: #fd6a21;
+	color: white;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+}
+.btn:hover{
+	background: #E57B34;
+	color: white;
+}
+
+.introduce{
+	padding-top: 30px;
+	margin-left: 3%;
+	width: 52%;
+	height: 350px;
+	float: left;
+	
+}
+.introduce p{
+	font-size: 20px;
+	color: black;
+	
+}
+a{
+	
+	text-decoration: none;
+}
+
+.frametext{
+	border:2px solid #ccc;
+	padding: 4px;
+	border-radius: 5px;
+	color: black;
+	margin-left: 5px;
+}
+.frametext a{
+	color: black;
+}
+.frametext a:hover{
+	color: #E66F09;
+	text-decoration: none;
+	
+}
+.correlation{
+	float: left;
+	width: 25%;
+	height: 400px;
+	
+}
+.correlation ul{
+	border: 0 none;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+.correlation li{
+	width: 80px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	line-height: 20px;
+	float: left;
+	border-radius: 4px;
+}
+.correlation img{
+	width: 80px;
+	border-radius: 8px;
+}

@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+	  .picture{
+		width: 590px;
+		height: 357px;
+		float: left;
+		}
+     .ranking{
+     	border:2px solid #E66F09;
+     	width: 270px;
+     	height: 410px;
+     	float: left;
+     	margin-left: 5%;
+     	
+     }
+     .ranking li{
+     	display: inline-block;
+     	margin-left: -40px;
+     }
+     .ranking a{
+     	display: block;
+     	text-decoration: none;
+     	width: 270px;
+     	height: 40px;
+     }
+     
+     .ranking span.n1{
+     	height: 25px;
+     	color: #9d2006;
+     	width: 50px;
+     	float: left;
+     	text-align: center;
+     	display: block;
+     	padding-top: 10px;
+     }
+     .ranking span.n2{
+     	height: 25px;
+     	float: left;
+     	width: 90px;
+     	display: block;
+     	text-align: center;
+     	padding-top: 10px;
+          color: #9d2006;
+     }
+     
+     .ranking span.m1{
+     	height: 25px;
+     	
+     	width: 50px;
+     	float: left;
+     	text-align: center;
+      	display: block;
+         padding-top: 10px;
+     }
+     .ranking span.m2{
+     	height: 25px;
+     	float: left;
+     	width: 90px;
+     	display: block;
+     	text-align: center;
+     	padding-top: 10px;
+         color: #808080;
+     }
+     .ranking span.m3{
+     	height: 25px;
+     	
+     	float: left;
+     	width: 50px;
+     display: block;
+     	text-align: center;
+     	padding-top: 10px;
+        
+     }
+     .ranking span.m4{
+     	height: 20px;
+     	width: 50px;
+     	background-color: #03b4f5;
+     	float: left;
+        display: block;
+     text-align: center;
+     color: white;
+      margin-top: 10px;
+     }
+     
+     .ranking span.num{
+     	width: 14px;
+       height: 14px;
+         
+       color: #fff;
+       background-color: black;
+       display: block;
+      
+     }
+     .ranking span.c1{
+     	color: #db3838;
+     }
+     .ranking span.c2{
+     	color: #3aa900;
+     }
+     .ranking span.c3{
+     	color: #e66f09;
+     }
+     .ranking span.c4{
+     	color: darkgrey;
+     }
+     .ranking a:hover{
+     	background-color: #e3e3e3;
+     	
+     }
+     .ranking a:hover span.m4{
+     	background-color: #e15304;
+     }
+	 .allgame{
+		 float: left;
+		 width: 100%;
+		 height: 1500px;
+	
+	 }
+	 .allgame ul{
+			border: 0 none;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.allgame li{
+			width: 85px;
+			height:90px;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 1.5%;
+			margin-bottom: 1%;
+			line-height: 20px;
+			float: left;
+		}
+		.allgame img{
+			border-radius: 8px;
+			width: 75px;
+		}

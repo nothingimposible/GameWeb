@@ -1,0 +1,384 @@
+		.picture{
+			width:100%;
+			
+		}
+		.alldiv{
+			width: 100%;
+			height: 1000px;
+			background-image: url(../img/4399_西游.png);
+			background-size: 100%;
+			background-repeat:no-repeat;
+		margin: 0 auto;
+		padding: 0px;
+		}
+		.head{
+			width: 62%;
+			height: 130px;
+			margin-left: 19%;
+			
+		}
+		.nav1{
+			width: 100%;
+			height: 45px;
+			
+		}
+		.nav1 ul {
+           list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+         }
+
+         .nav1 li {
+          float: left;
+         }
+
+         .nav1 li a {
+			 font-size: 11px;
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+        }
+
+        .nav1 li a:hover {
+        background-color: #111;
+        }
+		.position{
+			height: 35px;
+			background-color: #f4f4f4;
+		}
+		.position a{
+			text-decoration: none;
+			font-size: 13px;
+			padding-top: 10px;
+			color: #808080;
+			float: left;
+			padding-left: 5px;
+		}
+		.position a:hover{
+			color: #E15304;
+		}
+		.search{
+			width: 100%;
+			height: 50px;
+			
+		}
+		.searchbutton{
+			background-color: #e57b34;
+		   border: #000000;
+			height: 35px;
+			line-height: 35px;
+			margin-top: 10px;
+			float: left;
+		}
+		.inputtext{
+			outline: #808080;
+			width: 180px;
+			height: 35px;
+			line-height: 30px;
+			margin-top: 10px;
+			float: left;
+		}
+		.login{
+			height: 50px;
+			width: 100px;
+			line-height: 50px;
+			background-color: #A9A9A9;
+			float: left;
+			margin-left: 27%;
+			align-content: center;
+		}
+		.login a{
+			color: #808080;
+			align-content: center;
+			margin-left: 10px;
+			text-decoration: none;
+		}
+		.login a:hover{
+			color: #E15304;
+		}
+		.center{
+			width: 62%;
+			height: 600px;
+			margin-left: 19%;
+			margin-top: 20px;
+		}
+		.areaname{
+			height: 30px;
+			line-height: 30px;
+		}
+		.caroul{
+			width: 35%;
+			height: 210px;
+			
+			float: left;
+		}
+		.supgame{
+			height: 210px;
+			width: 65%;
+		
+			float: left;
+		}
+		.supgame ul{
+			border: 0 none;
+            list-style: none outside none;
+            margin: 0;
+            padding: 0;
+			
+		}
+		.supgame li{
+			width: 120px;
+           font-size: 12px;
+            text-align: center;
+            margin-left: 4.5%;
+			margin-bottom: 1%;
+            line-height: 20px;
+			float: left;
+		}
+		.firegame{
+			float: left;
+			height: 400px;
+			width: 75%;
+			
+		}
+		.firegame ul{
+			border: 0 none;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.firegame li{
+			width: 85px;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 1.5%;
+			margin-bottom: 1%;
+			line-height: 20px;
+			float: left;
+		}
+		.firegame img{
+			border-radius: 8px;
+			width: 75px;
+		}
+		.seminar{
+		float: left;
+		height: 400px;
+		width: 25%;
+		
+		}
+		.seminar ul{
+			border: 0 none;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.seminar li{
+			width: 100px;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 5%;
+			margin-bottom: 1%;
+			line-height: 20px;
+			float: left;
+		}
+		.seminar img{
+			width: 90px;
+		}
+		
+		.ranking1{
+			float: left;
+			height: 800px;
+			width: 25%;
+			border:1px solid #FD6A21;
+			
+		}
+		}
+		.ranking1 ul{
+			border: 0 none;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.ranking1 li{
+			list-style: none outside none;
+			width: 230px;
+			height: 70px;
+			font-size: 15px;
+		    display: block;
+			margin-left: -35px;
+			margin-bottom: 1%;
+			line-height: 20px;
+		   
+		}
+		.ranking1 a{
+			 color: black;
+		}
+		.ranking1 a:hover{
+			 color: #FD6A21;
+		}
+		.ranking1 img{
+			
+			width: 70px;
+		}
+		.rankingspan{
+			line-height: 70px;
+			text-align: center;
+			float: left;
+			display: block;
+			width: 20px;
+			height: 70px;
+			
+		}
+		.rankingcolor1{
+			background: red;
+		}
+		.rankingcolor2{
+			background: #E15304;
+		}
+		.rankingcolor3{
+			background: green;
+		}
+		.rankingcolor4{
+			background: #A9A9A9;
+		}
+		.liblock{
+			
+			width: 100px;
+			height: 110px;
+			float: left;
+			text-align: center;
+		}
+		.ulblock{
+			
+			width: 330px;
+			height: 350px;
+		}
+		.shortgame{
+			margin-top: -30px;
+			float: left;
+			width: 75%;
+			height: 2400px;
+			
+		}
+		.shortgame img{
+			border-radius: 8px;
+			width: 75px;
+		}
+		.shortgame ul{
+			border: 0 none;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.shortgame li{
+			width: 85px;
+			height: 110px;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 1%;
+			margin-bottom: 1%;
+			line-height: 20px;
+			float: left;
+		}
+		/* 弹出登录框 */
+		.mini_login{
+		    top: -50%;
+			display:none;
+			position:absolute;
+			z-index:2;
+			background:white;
+		}
+		.mini_login .item{
+			width:320px;
+			margin:0 auto;
+			height:48px;
+			line-height:48px;
+			padding:0 20px;
+		}
+		/* 登录窗第一行*/
+		.mini_login .firstLine{
+			color:#666;
+			background:#f7f7f7;
+			font-size:18px;
+			font-weight:bold;
+			cursor:move;
+		}
+		.mini_login .item .login_close{
+			display:inline-block;
+			float:right;
+			cursor:pointer;
+		}
+		
+		.mini_login .item label{
+			font-size:14px;
+			margin-right:15px;
+		}
+		.mini_login .item input{
+			display:inline-block;
+			height:60%;
+			width:70%;
+		}
+		/* 登录按钮 */
+		.mini_login .item .btn_login{
+			display:block;
+			margin:10px 10% 0;
+			height:30px;
+			
+			width:80%;
+			background:#4490F7;
+			color:white;
+			font-size:16px;
+			font-weight:bold;
+			text-align:center;
+		}
+		/* 遮罩层样式 */
+		.cover{
+			display:none;
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0;
+			left:0;
+			z-index:1;
+			background-color:#000;
+			opacity:0.3;
+		}
+		.frametext{
+			border:2px solid #ccc;
+			padding: 3px;
+			margin-top: 50%;
+			border-radius: 5px;
+			color: black;
+			margin-left: 5px;
+		}
+		.frametext a{
+			color: black;
+		}
+		.frametext a:hover{
+			color: #E66F09;
+		}
+		ul.pagination {
+		    display: inline-block;
+		    padding: 0;
+		    margin: 0;
+			margin-left: 25%;
+		}
+		
+		ul.pagination li {display: inline;}
+		
+		ul.pagination li a {
+		    color: black;
+		    float: left;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		}
+		
+		ul.pagination li a.active {
+		    background-color: #FD6A21;
+		    color: white;
+		}
+		
+		ul.pagination li a:hover:not(.active) {background-color: #ddd;}
